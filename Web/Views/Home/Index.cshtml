@@ -1,45 +1,36 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-@section featured {
-    <section class="featured">
-        <div class="content-wrapper">
-            <hgroup class="title">
-                <h1>@ViewBag.Title.</h1>
-                <h2>@ViewBag.Message</h2>
-            </hgroup>
-            <p>
-                To learn more about ASP.NET MVC visit
-                <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
-                The page features <mark>videos, tutorials, and samples</mark> to help you get the most from ASP.NET MVC.
-                If you have any questions about ASP.NET MVC visit
-                <a href="http://forums.asp.net/1146.aspx/1?MVC" title="ASP.NET MVC Forum">our forums</a>.
-            </p>
+<link rel="stylesheet" href="@Url.Content("~/Content/homepage.css")" />
+<div class="wrapper">
+    <div class="w-section clearfix section-inview" id="section5">
+        <div class="section-wrap">
+            <div class="text-fx text-animate">
+                <div class="h2"><strong>微软</strong> 学术搜索</div>
+                <div class="b-text-msg">
+                    <p>微软学术搜索（Microsoft Academic Search）是微软研究院开发的免费学术搜索引擎。它为研究员、学生、图书馆馆员和其他用户查找学术论文、国际会议、权威期刊、作者和研究领域等提供了一个更加智能、新颖的搜索平台，同时也是一个对象级别垂直搜索、命名实体的提取和消歧、数据可视化等许多研究思路的试验平台。</p>
+                </div>
+            </div>
+            <div class="s-img">
+                <div class="justify-box">
+                    <span class="justify-box-item">
+                        <div class="white-line"></div><div class="h4">Researchers</div><span class="s-text-num">53,427,744</span>
+                    </span>&nbsp;
+                    <span class="justify-box-item"><div class="white-line"></div><div class="h4">Publications</div><span class="s-text-num">43,001,202</span></span><i class="justify-fix"></i>
+                </div>
+            </div>
         </div>
-    </section>
-}
-<h3>We suggest the following:</h3>
-<ol class="round">
-    <li class="one">
-        <h5>Getting Started</h5>
-        ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-        enables a clean separation of concerns and that gives you full control over markup
-        for enjoyable, agile development. ASP.NET MVC includes many features that enable
-        fast, TDD-friendly development for creating sophisticated applications that use
-        the latest web standards.
-        <a href="http://go.microsoft.com/fwlink/?LinkId=245151">Learn more…</a>
-    </li>
-
-    <li class="two">
-        <h5>Add NuGet packages and jump-start your coding</h5>
-        NuGet makes it easy to install and update free libraries and tools.
-        <a href="http://go.microsoft.com/fwlink/?LinkId=245153">Learn more…</a>
-    </li>
-
-    <li class="three">
-        <h5>Find Web Hosting</h5>
-        You can easily find a web hosting company that offers the right mix of features
-        and price for your applications.
-        <a href="http://go.microsoft.com/fwlink/?LinkId=245157">Learn more…</a>
-    </li>
-</ol>
+    </div>
+    <div class="w-section section-inview" id="section2">
+        <div class="section2-wrap">
+            <div class="slideimg">
+                <img class="section2-image" alt="Academic Search" src="@Url.Content("/Images/academicsearch.png")" />
+                <div class="slideimg-scale"></div>
+            </div>
+            <div class="section2-text">
+                
+                <p>Microsoft Academic Search is an experimental research service developed by Microsoft Research to explore how scholars, scientists, students, and practitioners find academic content, researchers, institutions, and activities. Microsoft Academic Search indexes not only millions of academic publications, it also displays the key relationships between and among subjects, content, and authors, highlighting the critical links that help define scientific research. As is true of many research projects at Microsoft, this service is not intended to be a production Web site, and it will likely be taken offline when appropriate given the research goals of the project. </p>
+            </div>
+        </div>
+    </div>
+</div>

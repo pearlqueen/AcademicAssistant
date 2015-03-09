@@ -1,0 +1,220 @@
+﻿.wrapper{
+    position: relative;
+    background-color: #fff;
+}
+
+.w-section{
+    width: 100%;
+}
+
+#section1{
+    background-image: url("/Images/sec1-image.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.s-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -615px;
+    margin-top: -195px;
+}
+
+.section-inview, s.text-fx {
+    opacity: 1;
+}
+
+.s-text-fx h1{
+    font-size: 55px; 
+    margin-top: 5px;
+}
+
+.s-text-fx h2{
+    font-size: 33px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+.justify-box{
+    text-align: justify;
+}
+
+.justify-box .justify-box-item{
+    width: 30%;
+    display: inline-block;
+    padding-bottom: 20px;
+    vertical-align: top;
+    font-size: 20px;
+}
+
+.s-text-num{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.white-line{
+    overflow: hidden;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 14px;
+}
+
+.section-inview .white-line {
+    width: 100%;
+}
+
+#section2, #section4 {
+    position:relative;
+    z-index:1;
+}
+
+.section2-wrap{
+    width:1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section2-wrap .slideimg{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    z-index:1;
+    height:550px;
+}
+
+.slideimg-scale{
+    padding-bottom: 133%;
+}
+
+.section2-text{
+    width: 45%;
+    padding: 30px 0 100px 55%;
+    font-size: 16px;
+    color: #333;
+}
+
+.section4-wrap .slideimg{
+    width: 45%;
+    float:right;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.section4-text{
+    width: 55%;
+    font-size: 14px;
+    color: #333;
+}
+
+.clearfix{
+    zoom: 1;
+}
+
+#section3{
+    background-color: #fff;
+    padding: 70px 0;
+}
+
+#section3 .section-wrap{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#section3 .text-fx{
+    width: 40%;
+    float: left;
+    margin-left: 10px; 
+    color: #333;
+}
+
+.b-text-msg{
+    font-size: 17px;
+    line-height: 2em;
+}
+
+.b-text-msg p{
+    text-align: justify;
+}
+
+
+.s-img{
+    width: 600px;
+    height: 400px;
+}
+
+#section3 .s-img{
+    background: url("/Images/sec3-image.jpg") no-repeat;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+}
+
+
+#section5{
+    padding: 70px 0;
+}
+
+.clearfix::after{
+    clear: both;
+    overflow: hidden;
+}
+
+.clearfix::before, .clearfix::after{
+    content:"";
+    display: table;
+}
+
+#section5 .text-fx{
+    width: 40%;
+    float:left;
+    margin-left:10px;
+    color: #333;
+}
+
+.s-text-fx .h1, .text-fx .h1{
+    font-size: 55px;
+    margin-top: 5px;
+}
+
+.s-text-fx .h2, .text-fx .h2{
+    font-size: 33px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+#section5 .section-wrap{
+    width:1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#section5 .s-img{
+    background: url("/Images/sec3-image.jpg") no-repeat;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+}
+
+#section5 .justify-box {
+    position: absolute;
+    width: 85%;
+    margin-left: 5%;
+    color: #fff;
+    bottom: 0px;
+}
+
+.justify-fix{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
